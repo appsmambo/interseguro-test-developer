@@ -40,7 +40,7 @@
                                     Elaborar un API (PHP+Laravel) que reciba un array de arrays de números que conformen una matriz de NxN representando una imagen, y se devuelva la misma matriz que represente la imagen pero rotada en sentido anti-horario (90 grados). La API debe ser de tipo POST, el ContentType de los request y response deben ser application/json y se debe controlar los errores.
                                     <br><br>
                                     <strong>Endpoint</strong>
-                                    <a href="#">http://asdasdasd.com</a>
+                                    <a href="https://fd56c1ac96c7.ngrok.io/rotar">https://fd56c1ac96c7.ngrok.io/rotar</a>
                                     <br>
                                     <strong>Method</strong>
                                     POST
