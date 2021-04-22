@@ -20,8 +20,8 @@ class MatrizController extends Controller
                 }
                 $y--;
             }
-            $this->imprimirMatriz($arr_entrada);
-            $this->imprimirMatriz($arr_salida);
+            $this->imprimirMatriz($arr_entrada, 'Input');
+            $this->imprimirMatriz($arr_salida, 'Output');
             $mensaje = array(
                 'input' => $arr_entrada,
                 'output' => $arr_salida,
@@ -63,8 +63,9 @@ class MatrizController extends Controller
         return true;
     }
 
-    private function imprimirMatriz($matriz)
+    private function imprimirMatriz($matriz, $etiqueta)
     {
+        echo $etiqueta . "\n";
         foreach ($matriz as $fila) {
             foreach ($fila as $valor) {
                 echo  $valor . ' ';
